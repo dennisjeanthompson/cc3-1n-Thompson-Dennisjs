@@ -41,7 +41,7 @@
             Reservation reservation1 = hms.BookReservation(DateTime.Now, new DateTime(2040, 09, 12), room2, hotel456);
             hotelYanan.DisplayBookeRooms();
             terry.BookReservation(reservation);
-            terry.DisplayReservation();//not displaying
+            terry.DisplayReservation();
             satan.BookReservation(reservation1);
             satan.DisplayReservation();
             Receptionist anna = new Receptionist("Anna", "Addr 2", "anna@email.com", 67890);
